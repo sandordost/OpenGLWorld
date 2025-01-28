@@ -13,14 +13,23 @@ SquareMesh::SquareMesh() {
     };
 
     std::vector<float> normals = {
-         0.0f,  0.0f,  1.0f,   
-         0.0f,  0.0f,  1.0f,   
-         0.0f,  0.0f,  1.0f,
+         0.0f,  0.0f,  -1.0f,   
+         0.0f,  0.0f,  -1.0f,   
+         0.0f,  0.0f,  -1.0f,
 
-         0.0f,  0.0f,  1.0f,   
-         0.0f,  0.0f,  1.0f,   
-         0.0f,  0.0f,  1.0f
+         0.0f,  0.0f,  -1.0f,   
+         0.0f,  0.0f,  -1.0f,   
+         0.0f,  0.0f,  -1.0f
     };
 
-    SetupMesh(vertices, normals);
+	std::vector<float> texCoords = {
+		0.0f, 0.0f,
+		1.0f, 0.0f,
+		0.0f, 1.0f,
+		0.0f, 1.0f,
+		1.0f, 0.0f,
+		1.0f, 1.0f
+	};
+
+    SetupMesh(vertices, normals, texCoords);
 }

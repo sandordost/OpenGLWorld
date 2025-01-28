@@ -1,118 +1,137 @@
 #include "CubeMesh.h"
 
 CubeMesh::CubeMesh() {
-    // Vertex data voor een kubus (36 vertices, 12 driehoeken)
-    std::vector<float> vertices = {
-		// Voorvlak
-		-0.5f, -0.5f,  0.5f, // Linksonder
-		0.5f, -0.5f,  0.5f, // Rechtsonder
-		0.5f,  0.5f,  0.5f, // Rechtsboven
+	std::vector<float> vertices = {
+		// Voorvlak (+Z)
+		-0.5f, -0.5f,  0.5f,  
+		0.5f, -0.5f,  0.5f,  
+		0.5f,  0.5f,  0.5f,
 
-		0.5f,  0.5f,  0.5f, // Rechtsboven
-		-0.5f,  0.5f,  0.5f, // Linksboven
-		-0.5f, -0.5f,  0.5f, // Linksonder
+		0.5f,  0.5f,  0.5f, 
+		-0.5f,  0.5f,  0.5f, 
+		-0.5f, -0.5f,  0.5f,
 
-		// Achtervlak
-		-0.5f, -0.5f, -0.5f, // Linksonder
-		0.5f, -0.5f, -0.5f, // Rechtsonder
-		0.5f,  0.5f, -0.5f, // Rechtsboven
+		// Bovenkant (+Y)
+		-0.5f,  0.5f,  0.5f,  
+		0.5f,  0.5f,  0.5f,  
+		0.5f,  0.5f, -0.5f,
 
-		0.5f,  0.5f, -0.5f, // Rechtsboven
-		-0.5f,  0.5f, -0.5f, // Linksboven
-		-0.5f, -0.5f, -0.5f, // Linksonder
+		0.5f,  0.5f, -0.5f, 
+		-0.5f,  0.5f, -0.5f, 
+		-0.5f,  0.5f,  0.5f,
 
-		// Linkerzijvlak
-		-0.5f,  0.5f,  0.5f, // Rechtsboven
-		-0.5f,  0.5f, -0.5f, // Rechtsboven
-		-0.5f, -0.5f, -0.5f, // Linksonder
+		// Rechterzijvlak (+X)
+		0.5f, -0.5f, -0.5f,
+		0.5f,  0.5f, -0.5f,  
+		0.5f,  0.5f,  0.5f,
 
-		-0.5f, -0.5f, -0.5f, // Linksonder
-		-0.5f, -0.5f,  0.5f, // Linksonder
-		-0.5f,  0.5f,  0.5f, // Rechtsboven
+		0.5f,  0.5f,  0.5f,
+		0.5f, -0.5f,  0.5f,  
+		0.5f, -0.5f, -0.5f,
 
-		// Rechterzijvlak
-		0.5f,  0.5f,  0.5f, // Rechtsboven
-		0.5f,  0.5f, -0.5f, // Rechtsboven
-		0.5f, -0.5f, -0.5f, // Linksonder
+		// Achtervlak (-Z)
+		-0.5f, -0.5f, -0.5f,
+		-0.5f,  0.5f, -0.5f,
+		0.5f,  0.5f, -0.5f,
 
-		0.5f, -0.5f, -0.5f, // Linksonder
-		0.5f, -0.5f,  0.5f, // Linksonder
-		0.5f,  0.5f,  0.5f, // Rechtsboven
+		0.5f,  0.5f, -0.5f,
+		0.5f, -0.5f, -0.5f,
+		-0.5f, -0.5f, -0.5f,
 
-		// Bovenkant
-		-0.5f,  0.5f,  0.5f, // Linksonder
-		0.5f,  0.5f,  0.5f, // Rechtsonder
-		0.5f,  0.5f, -0.5f, // Rechtsboven
+		// Linkerzijvlak (-X)
+		-0.5f,  0.5f,  0.5f,
+		-0.5f,  0.5f,  -0.5f,
+		-0.5f, -0.5f,  -0.5f,
 
-		0.5f,  0.5f, -0.5f, // Rechtsboven
-		-0.5f,  0.5f, -0.5f, // Linksboven
-		-0.5f,  0.5f,  0.5f, // Linksonder
+		-0.5f, -0.5f, -0.5f,
+		-0.5f, -0.5f,  0.5f,
+		-0.5f,  0.5f,  0.5f,
 
-		// Onderkant
-		-0.5f, -0.5f,  0.5f, // Linksonder
-		0.5f, -0.5f,  0.5f, // Rechtsonder
-		0.5f, -0.5f, -0.5f, // Rechtsboven
+		// Onderkant (-Y)
+		0.5f, -0.5f,  -0.5f,
+		-0.5f, -0.5f, 0.5f,
+		-0.5f, -0.5f,  -0.5f,
 
-		0.5f, -0.5f, -0.5f, // Rechtsboven
-		-0.5f, -0.5f, -0.5f, // Linksboven
-		-0.5f, -0.5f,  0.5f, // Linksonder
-    };
-
-	std::vector<float> normals = {
-		// Voorvlak
-		0.0f, 0.0f, 1.0f,
-		0.0f, 0.0f, 1.0f,
-		0.0f, 0.0f, 1.0f,
-
-		0.0f, 0.0f, 1.0f,
-		0.0f, 0.0f, 1.0f,
-		0.0f, 0.0f, 1.0f,
-
-		// Achtervlak
-		0.0f, 0.0f, -1.0f,
-		0.0f, 0.0f, -1.0f,
-		0.0f, 0.0f, -1.0f,
-
-		0.0f, 0.0f, -1.0f,
-		0.0f, 0.0f, -1.0f,
-		0.0f, 0.0f, -1.0f,
-
-		// Linkerzijvlak
-		-1.0f, 0.0f, 0.0f,
-		-1.0f, 0.0f, 0.0f,
-		-1.0f, 0.0f, 0.0f,
-
-		-1.0f, 0.0f, 0.0f,
-		-1.0f, 0.0f, 0.0f,
-		-1.0f, 0.0f, 0.0f,
-
-		// Rechterzijvlak
-		1.0f, 0.0f, 0.0f,
-		1.0f, 0.0f, 0.0f,
-		1.0f, 0.0f, 0.0f,
-
-		1.0f, 0.0f, 0.0f,
-		1.0f, 0.0f, 0.0f,
-		1.0f, 0.0f, 0.0f,
-
-		// Bovenkant
-		0.0f, 1.0f, 0.0f,
-		0.0f, 1.0f, 0.0f,
-		0.0f, 1.0f, 0.0f,
-
-		0.0f, 1.0f, 0.0f,
-		0.0f, 1.0f, 0.0f,
-		0.0f, 1.0f, 0.0f,
-
-		// Onderkant
-		0.0f, -1.0f, 0.0f,
-		0.0f, -1.0f, 0.0f,
-		0.0f, -1.0f, 0.0f,
-
-		0.0f, -1.0f, 0.0f,
-		0.0f, -1.0f, 0.0f,
-		0.0f, -1.0f, 0.0f
+		- 0.5f, -0.5f,  0.5f,
+		0.5f, -0.5f, -0.5f,
+		0.5f, -0.5f,  0.5f,
 	};
 
-    SetupMesh(vertices, normals);
+	std::vector<float> normals = {
+		// Voorvlak (+Z)
+		0.0f,  0.0f,  1.0f,
+		0.0f,  0.0f,  1.0f,
+		0.0f,  0.0f,  1.0f,
+
+		0.0f,  0.0f,  1.0f,
+		0.0f,  0.0f,  1.0f,
+		0.0f,  0.0f,  1.0f,
+
+		// Bovenkant (+Y)
+		0.0f,  1.0f,  0.0f,
+		0.0f,  1.0f,  0.0f,
+		0.0f,  1.0f,  0.0f,
+
+		0.0f,  1.0f,  0.0f,
+		0.0f,  1.0f,  0.0f,
+		0.0f,  1.0f,  0.0f,
+
+		// Rechterzijvlak (+X)
+		1.0f,  0.0f,  0.0f,
+		1.0f,  0.0f,  0.0f,
+		1.0f,  0.0f,  0.0f,
+
+		1.0f,  0.0f,  0.0f,
+		1.0f,  0.0f,  0.0f,
+		1.0f,  0.0f,  0.0f,
+
+		// Achtervlak (-Z)
+		0.0f,  0.0f, -1.0f,
+		0.0f,  0.0f, -1.0f,
+		0.0f,  0.0f, -1.0f,
+
+		0.0f,  0.0f, -1.0f,
+		0.0f,  0.0f, -1.0f,
+		0.0f,  0.0f, -1.0f,
+
+		// Linkerzijvlak (-X)
+		-1.0f,  0.0f,  0.0f,
+		-1.0f,  0.0f,  0.0f,
+		-1.0f,  0.0f,  0.0f,
+
+		-1.0f,  0.0f,  0.0f,
+		-1.0f,  0.0f,  0.0f,
+		-1.0f,  0.0f,  0.0f,
+
+		// Onderkant (-Y)
+		0.0f, -1.0f,  0.0f,  
+		0.0f, -1.0f,  0.0f,  
+		0.0f, -1.0f,  0.0f,
+
+		0.0f, -1.0f,  0.0f,  
+		0.0f, -1.0f,  0.0f,  
+		0.0f, -1.0f,  0.0f
+	};
+
+	std::vector<float> texCoords = {
+		0.0f, 0.0f,  1.0f, 0.0f,  1.0f, 1.0f,
+		1.0f, 1.0f,  0.0f, 1.0f,  0.0f, 0.0f,
+
+		0.0f, 0.0f,  1.0f, 0.0f,  1.0f, 1.0f,
+	1.0f, 1.0f,  0.0f, 1.0f,  0.0f, 0.0f,
+
+	0.0f, 0.0f,  1.0f, 0.0f,  1.0f, 1.0f,
+	1.0f, 1.0f,  0.0f, 1.0f,  0.0f, 0.0f,
+
+	0.0f, 0.0f,  1.0f, 0.0f,  1.0f, 1.0f,
+	1.0f, 1.0f,  0.0f, 1.0f,  0.0f, 0.0f,
+
+	0.0f, 0.0f,  1.0f, 0.0f,  1.0f, 1.0f,
+	1.0f, 1.0f,  0.0f, 1.0f,  0.0f, 0.0f,
+
+	0.0f, 0.0f,  1.0f, 0.0f,  1.0f, 1.0f,
+	1.0f, 1.0f,  0.0f, 1.0f,  0.0f, 0.0f,
+	};
+
+	SetupMesh(vertices, normals, texCoords);
 }

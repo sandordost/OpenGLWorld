@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Meshes">
       <UniqueIdentifier>{1c4c1c14-1e95-4a22-9aff-574f3bc4a3ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{fb552c88-e166-4811-85dc-21a0fc598124}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -100,5 +103,13 @@
     <ResourceCompile Include="OpenGLProject.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\Sand_008_Texture\Sand_008_basecolor.png">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
+    <Image Include="textures\Sand_008_Texture\Sand_008_roughness.png">
+      <Filter>Source Files\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>

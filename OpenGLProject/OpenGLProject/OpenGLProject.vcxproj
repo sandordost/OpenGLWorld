@@ -160,6 +160,10 @@
   <ItemGroup>
     <ResourceCompile Include="OpenGLProject.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\Sand_008_Texture\Sand_008_basecolor.png" />
+    <Image Include="textures\Sand_008_Texture\Sand_008_roughness.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\glfw.3.4.0\build\native\glfw.targets" Condition="Exists('..\packages\glfw.3.4.0\build\native\glfw.targets')" />

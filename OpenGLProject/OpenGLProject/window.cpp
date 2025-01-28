@@ -1,4 +1,4 @@
-#include "window.h"
+﻿#include "window.h"
 
 Window::Window(int width, int height, const std::string& title) {
     if (!glfwInit()) {
@@ -26,6 +26,10 @@ Window::Window(int width, int height, const std::string& title) {
         exit(-1);
     }
 
+    glEnable(GL_DEPTH_TEST);
+    glDepthFunc(GL_LESS);
+    glEnable(GL_CULL_FACE);
+
     glViewport(0, 0, width, height);
 }
 
@@ -48,7 +52,7 @@ void Window::PollEvents() {
 
 void Window::Clear(float r, float g, float b, float a) {
     glClearColor(r, g, b, a);
-    glClear(GL_COLOR_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 
 GLFWwindow* Window::GetGLFWWindow() const {
