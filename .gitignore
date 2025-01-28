@@ -1,0 +1,67 @@
+# Visual Studio
+.vscode/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.vcxproj.filters
+ipch/
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.log
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+build/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Compiler-generated files
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.exp
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.dmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# OpenGL shader cache
+*.spv
+*.shader_cache
+
+# stb_image cache
+stb_image_cache/
+
+# IDE-specific settings
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# General Backup files
+*.bak
+*.old
+*.orig
+
+# Personal settings
+*.session
+*.workspace
