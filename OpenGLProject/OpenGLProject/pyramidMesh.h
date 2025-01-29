@@ -1,0 +1,89 @@
+#pragma once
+#include "mesh.h"
+#include "defaultMaterial.h"
+
+class PyramidMesh : public Mesh {
+public:
+	PyramidMesh(Material _material) 
+	: Mesh(_material) {
+		std::vector<float> vertices = {
+			// Voorvlak
+			-0.5f, -0.5f,  0.5f,
+			0.5f, -0.5f,  0.5f,
+			0.0f,  0.5f,  0.0f,
+			// Rechterzijvlak
+			0.5f, -0.5f,  0.5f,
+			0.5f, -0.5f, -0.5f,
+			0.0f,  0.5f,  0.0f,
+			// Achtervlak
+			0.5f, -0.5f, -0.5f,
+			-0.5f, -0.5f, -0.5f,
+			0.0f,  0.5f,  0.0f,
+			// Linkerzijvlak
+			-0.5f, -0.5f, -0.5f,
+			-0.5f, -0.5f,  0.5f,
+			0.0f,  0.5f,  0.0f,
+			// Ondervlak
+			0.5f, -0.5f, -0.5f,
+			0.5f, -0.5f,  0.5f,
+			-0.5f, -0.5f,  0.5f,
+
+			-0.5f, -0.5f,  0.5f,
+			-0.5f, -0.5f, -0.5f,
+			0.5f, -0.5f, -0.5f,
+		};
+		std::vector<float> normals = {
+			// Voorvlak
+			0.0f, 0.0f, 1.0f,
+			0.0f, 0.0f, 1.0f,
+			0.0f, 0.0f, 1.0f,
+			// Rechterzijvlak
+			1.0f, 0.0f, 0.0f,
+			1.0f, 0.0f, 0.0f,
+			1.0f, 0.0f, 0.0f,
+			// Achtervlak
+			0.0f, 0.0f, -1.0f,
+			0.0f, 0.0f, -1.0f,
+			0.0f, 0.0f, -1.0f,
+			// Linkerzijvlak
+			-1.0f, 0.0f, 0.0f,
+			-1.0f, 0.0f, 0.0f,
+			-1.0f, 0.0f, 0.0f,
+			// Ondervlak
+			0.0f, -1.0f, 0.0f,
+			0.0f, -1.0f, 0.0f,
+			0.0f, -1.0f, 0.0f,
+
+			0.0f, -1.0f, 0.0f,
+			0.0f, -1.0f, 0.0f,
+			0.0f, -1.0f, 0.0f,
+		};
+		std::vector<float> texCoords = {
+			// Voorvlak
+			0.0f, 0.0f,
+			1.0f, 0.0f,
+			0.5f, 1.0f,
+			// Rechterzijvlak
+			0.0f, 0.0f,
+			1.0f, 0.0f,
+			0.5f, 1.0f,
+			// Achtervlak
+			0.0f, 0.0f,
+			1.0f, 0.0f,
+			0.5f, 1.0f,
+			// Linkerzijvlak
+			0.0f, 0.0f,
+			1.0f, 0.0f,
+			0.5f, 1.0f,
+			// Ondervlak
+			0.0f, 0.0f,
+			1.0f, 0.0f,
+			1.0f, 1.0f,
+
+			1.0f, 1.0f,
+			0.0f, 1.0f,
+			0.0f, 0.0f,
+		};
+		SetupMesh(vertices, normals, texCoords, _material);
+	}
+};

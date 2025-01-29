@@ -22,6 +22,12 @@
     <Filter Include="Source Files\Textures">
       <UniqueIdentifier>{fb552c88-e166-4811-85dc-21a0fc598124}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{4f184cad-6d36-412e-8fcb-5aef1072ebeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{c73feeec-8521-416a-8d77-7d515b92c56c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -57,14 +63,11 @@
     <ClCompile Include="textureLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="triangleMesh.cpp">
-      <Filter>Source Files\Meshes</Filter>
+    <ClCompile Include="material.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="squareMesh.cpp">
-      <Filter>Source Files\Meshes</Filter>
-    </ClCompile>
-    <ClCompile Include="cubeMesh.cpp">
-      <Filter>Source Files\Meshes</Filter>
+    <ClCompile Include="objectLoader.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -89,14 +92,41 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="triangleMesh.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="houseModel.h">
+      <Filter>Source Files\Models</Filter>
     </ClInclude>
-    <ClInclude Include="squareMesh.h">
+    <ClInclude Include="pyramidMesh.h">
+      <Filter>Source Files\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="cubeMesh.h">
+      <Filter>Source Files\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="defaultMaterial.h">
+      <Filter>Source Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="squareMesh.h">
+      <Filter>Source Files\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="triangleMesh.h">
+      <Filter>Source Files\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sandTexture.h">
+      <Filter>Source Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="sandMaterial.h">
+      <Filter>Source Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="objectLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="airplane.h">
+      <Filter>Source Files\Models</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

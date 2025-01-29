@@ -1,11 +1,10 @@
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\camera.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\camera.obj
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\cubeMesh.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\cubeMesh.obj
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\External\Glad\src\glad.c;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\glad.obj
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\main.obj
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\material.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\material.obj
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\mesh.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\mesh.obj
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\model.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\model.obj
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\objectLoader.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\objectLoader.obj
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\shader.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\shader.obj
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\squareMesh.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\squareMesh.obj
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\textureLoader.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\textureLoader.obj
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\triangleMesh.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\triangleMesh.obj
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\window.cpp;C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\x64\Debug\window.obj

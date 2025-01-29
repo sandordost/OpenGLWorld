@@ -134,25 +134,33 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="camera.cpp" />
-    <ClCompile Include="cubeMesh.cpp" />
     <ClCompile Include="External\Glad\src\glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="material.cpp" />
     <ClCompile Include="mesh.cpp" />
     <ClCompile Include="model.cpp" />
+    <ClCompile Include="objectLoader.cpp" />
     <ClCompile Include="shader.cpp" />
-    <ClCompile Include="squareMesh.cpp" />
     <ClCompile Include="textureLoader.cpp" />
-    <ClCompile Include="triangleMesh.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="airplane.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="cubeMesh.h" />
+    <ClInclude Include="defaultMaterial.h" />
+    <ClInclude Include="houseModel.h" />
+    <ClInclude Include="material.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
+    <ClInclude Include="objectLoader.h" />
+    <ClInclude Include="pyramidMesh.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="sandMaterial.h" />
+    <ClInclude Include="sandTexture.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="squareMesh.h" />
+    <ClInclude Include="texture.h" />
     <ClInclude Include="textureLoader.h" />
     <ClInclude Include="triangleMesh.h" />
     <ClInclude Include="window.h" />

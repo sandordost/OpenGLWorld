@@ -8,7 +8,7 @@
 
 class Model {
 public:
-	Model() : modelMatrix(1.0f) {}
+	Model() : transform(1.0f) {}
 
     void Translate(const glm::vec3& translation);
     void Rotate(float angle, const glm::vec3& axis);
@@ -19,5 +19,5 @@ public:
 
 private:
     std::vector<std::shared_ptr<Mesh>> meshes;
-    glm::mat4 modelMatrix;
+    glm::mat4 transform;
 };

@@ -10,6 +10,7 @@ struct Material {
     sampler2D diffuse;   
     sampler2D roughness; 
     float shininess;
+    float smoothness;
 };  
 
 uniform Material material;
@@ -30,12 +31,11 @@ void main() {
 
     // Specular lighting (Fixed)
     float rough = texture(material.roughness, TexCoord).r;
-    float specularStrength = 1.0 - rough; // Minder reflectie bij hogere roughness
+    float specularStrength = (1.0 - rough) * (1 - material.smoothness);
 
     vec3 viewDir = normalize(viewPos - FragPos);
     vec3 reflectDir = reflect(-lightDir, norm);
     
-    // ✅ Voeg condition toe om glitches te voorkomen
     float spec = pow(max(dot(viewDir, reflectDir), 0.0), max(8.0, material.shininess * (1.0 - rough)));
 
     vec3 specular = specularStrength * spec * lightColor;
