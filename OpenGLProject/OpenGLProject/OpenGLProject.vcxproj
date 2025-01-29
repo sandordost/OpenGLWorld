@@ -139,7 +139,7 @@
     <ClCompile Include="material.cpp" />
     <ClCompile Include="mesh.cpp" />
     <ClCompile Include="model.cpp" />
-    <ClCompile Include="objectLoader.cpp" />
+    <ClCompile Include="objloader.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="textureLoader.cpp" />
     <ClCompile Include="window.cpp" />
@@ -153,7 +153,7 @@
     <ClInclude Include="material.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
-    <ClInclude Include="objectLoader.h" />
+    <ClInclude Include="objLoader.h" />
     <ClInclude Include="pyramidMesh.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="sandMaterial.h" />

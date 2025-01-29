@@ -33,8 +33,10 @@ int main() {
     auto triangle = std::make_shared<TriangleMesh>(DefaultMaterial());
 	auto cube = std::make_shared<CubeMesh>(DefaultMaterial());
 
-    auto airPlane = AirPlaneModel();
-	airPlane.Translate(glm::vec3(0.0f, 0.0f, 0.0f));
+    auto airPlane = std::make_shared<AirPlaneModel>();
+	airPlane->Translate(glm::vec3(0.0f, 0.0f, 0.0f));
+    airPlane->Scale(glm::vec3(0.2f, 0.2f, 0.2f));
+	airPlane->Translate(glm::vec3(0.0f, 1.0f, 0.0f));
 
 	auto model = std::make_shared<Model>();
 	model->AddMesh(cube);
@@ -85,13 +87,13 @@ int main() {
         shader.SetMat4("view", view);
         shader.SetMat4("projection", projection);
         
+        airPlane->Draw(shader);
 		model->Rotate(0.4f, glm::vec3(0.0f, 0.0f, -1));
 		model2->Rotate(0.4f, glm::vec3(0.0f, 1.0f, 0.0f));
 		model->Draw(shader);
 		model2->Draw(shader);
 		houseModel.Draw(shader);
 		sandPlaneModel.Draw(shader);
-		airPlane.Draw(shader);
 
 		piramidMesh.Draw(shader, glm::mat4(1.0f));
 

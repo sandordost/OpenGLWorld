@@ -43,6 +43,11 @@ void Mesh::SetupMesh(const std::vector<float>& vertices, const std::vector<float
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
+    std::cout << "✅ Mesh setup met " << vertices.size() / 3
+        << " vertices, " << normals.size() / 3
+        << " normals, " << texCoords.size() / 2
+        << " texcoords.\n";
+
     verticesCount = vertices.size() / 3;
 }
 

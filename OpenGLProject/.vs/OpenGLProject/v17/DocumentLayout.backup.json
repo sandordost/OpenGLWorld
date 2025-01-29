@@ -3,56 +3,8 @@
   "WorkspaceRootPath": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\objectLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\objectLoader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\airplane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\airplane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\houseModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\houseModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\squareMesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\squareMesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\objectLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\objectLoader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\sandMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\sandTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\fragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\shaders\\fragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\shaders\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\defaultMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\defaultMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "houseModel.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\houseModel.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\houseModel.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\houseModel.h",
-              "RelativeToolTip": "OpenGLProject\\houseModel.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T15:11:52.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "squareMesh.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\squareMesh.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\squareMesh.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\squareMesh.h",
-              "RelativeToolTip": "OpenGLProject\\squareMesh.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T15:11:48.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "airplane.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\airplane.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\airplane.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\airplane.h",
-              "RelativeToolTip": "OpenGLProject\\airplane.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T15:06:00.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "objectLoader.cpp",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\objectLoader.cpp",
-              "RelativeDocumentMoniker": "OpenGLProject\\objectLoader.cpp",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\objectLoader.cpp",
-              "RelativeToolTip": "OpenGLProject\\objectLoader.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-29T14:57:57.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "objectLoader.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\objectLoader.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\objectLoader.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\objectLoader.h",
-              "RelativeToolTip": "OpenGLProject\\objectLoader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T14:57:28.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "sandTexture.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandTexture.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\sandTexture.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandTexture.h",
-              "RelativeToolTip": "OpenGLProject\\sandTexture.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T12:15:45.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "material.cpp",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\material.cpp",
-              "RelativeDocumentMoniker": "OpenGLProject\\material.cpp",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\material.cpp",
-              "RelativeToolTip": "OpenGLProject\\material.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-29T12:15:16.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "material.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\material.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\material.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\material.h",
-              "RelativeToolTip": "OpenGLProject\\material.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T12:15:14.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "fragmentShader.glsl",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\fragmentShader.glsl",
-              "RelativeDocumentMoniker": "OpenGLProject\\shaders\\fragmentShader.glsl",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\fragmentShader.glsl",
-              "RelativeToolTip": "OpenGLProject\\shaders\\fragmentShader.glsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-29T12:12:02.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "vertexShader.glsl",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\vertexShader.glsl",
-              "RelativeDocumentMoniker": "OpenGLProject\\shaders\\vertexShader.glsl",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\vertexShader.glsl",
-              "RelativeToolTip": "OpenGLProject\\shaders\\vertexShader.glsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-29T12:12:01.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "defaultMaterial.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\defaultMaterial.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\defaultMaterial.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\defaultMaterial.h",
-              "RelativeToolTip": "OpenGLProject\\defaultMaterial.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T12:11:42.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "sandMaterial.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandMaterial.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\sandMaterial.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandMaterial.h",
-              "RelativeToolTip": "OpenGLProject\\sandMaterial.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-29T12:11:34.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\main.cpp",
               "RelativeDocumentMoniker": "OpenGLProject\\main.cpp",
               "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\main.cpp",
               "RelativeToolTip": "OpenGLProject\\main.cpp",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAF0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-29T12:11:25.967Z",
+              "WhenOpened": "2025-01-29T16:52:22.059Z",
               "EditorCaption": ""
             }
           ]

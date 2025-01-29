@@ -10,6 +10,7 @@ class Mesh {
 public:
     Mesh();
     Mesh(const Material& _material);
+
     virtual ~Mesh();
 
     void SetupMesh(const std::vector<float>& vertices, const std::vector<float>& normals, const std::vector<float>& texCoords, const Material& material);

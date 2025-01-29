@@ -1,9 +1,9 @@
 ﻿  main.cpp
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(69,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(121,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(122,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(126,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(127,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(128,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(129,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(71,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(123,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(124,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(128,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(129,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(130,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(131,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   OpenGLProject.vcxproj -> C:\GitHub\OpenGLWorld\OpenGLProject\x64\Debug\OpenGLProject.exe
