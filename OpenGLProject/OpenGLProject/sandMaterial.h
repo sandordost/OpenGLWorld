@@ -1,9 +1,12 @@
 #pragma once
 #include <string>
-#include "material.h"
 #include "sandTexture.h"
+#include "pbrMaterial.h"
 
-class SandMaterial : public Material {
+class SandMaterial : public PBRMaterial {
 public:
-	SandMaterial() : Material(SandTexture(), 0.0f, 0.9f) {}
+	SandMaterial() : PBRMaterial(SandTexture()) {
+		shininess = 20.0f;
+		smoothness = 0.2f;
+	}
 };

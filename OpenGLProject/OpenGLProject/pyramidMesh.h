@@ -1,10 +1,9 @@
 #pragma once
 #include "mesh.h"
-#include "defaultMaterial.h"
 
 class PyramidMesh : public Mesh {
 public:
-	PyramidMesh(Material _material) 
+	PyramidMesh(const std::shared_ptr<Material>& _material) 
 	: Mesh(_material) {
 		std::vector<float> vertices = {
 			// Voorvlak
@@ -84,6 +83,6 @@ public:
 			0.0f, 1.0f,
 			0.0f, 0.0f,
 		};
-		SetupMesh(vertices, normals, texCoords, _material);
+		SetupMesh(vertices, normals, texCoords);
 	}
 };

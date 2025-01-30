@@ -5,17 +5,20 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include "shader.h"
 #include "material.h"
+#include <memory>
+
+class Scene;
 
 class Mesh {
 public:
-    Mesh();
-    Mesh(const Material& _material);
+    Mesh(const std::shared_ptr<Material>& _material);
 
     virtual ~Mesh();
 
-    void SetupMesh(const std::vector<float>& vertices, const std::vector<float>& normals, const std::vector<float>& texCoords, const Material& material);
+    void SetupMesh(const std::vector<float>& vertices, const std::vector<float>& normals, const std::vector<float>& texCoords);
+	void SetupMesh(const std::vector<float>& vertices, const std::vector<float>& normals, const std::vector<float>& texCoords, const std::vector<float>& tangents);
 
-    void Draw(const Shader& shader, glm::mat4 modelTransform) const;
+    void Draw(const std::shared_ptr<Scene>& scene, glm::mat4 modelTransform) const;
 
     void Translate(const glm::vec3& translation);
     void Scale(const glm::vec3& scale);
@@ -26,7 +29,7 @@ public:
 protected:
     GLuint VAO, VBO, NBO, TBO;
     size_t verticesCount;
-	Material material;
+    std::shared_ptr<Material> material;
 
     glm::mat4 transform = glm::mat4(1.0f);
 };

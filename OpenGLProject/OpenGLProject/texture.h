@@ -8,4 +8,5 @@ public:
 
 	std::string diffusePath = "";
 	std::string roughnessPath = "";
+	std::string normalPath = "";
 };

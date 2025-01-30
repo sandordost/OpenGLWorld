@@ -72,18 +72,47 @@ void Shader::Use() const {
     glUseProgram(ID);
 }
 
-void Shader::SetFloat(const std::string& name, float value) const {
-    glUniform1f(glGetUniformLocation(ID, name.c_str()), value);
+void Shader::SetLightPos(const glm::vec3& lightPos) const
+{
+	glUniform3f(glGetUniformLocation(ID, "lightPos"), lightPos.x, lightPos.y, lightPos.z);
 }
 
-void Shader::SetVec3(const std::string& name, glm::vec3 vec3) const {
-    glUniform3f(glGetUniformLocation(ID, name.c_str()), vec3.x, vec3.y, vec3.z);
+void Shader::SetLightColor(const glm::vec3& lightColor) const
+{
+	glUniform3f(glGetUniformLocation(ID, "lightColor"), lightColor.x, lightColor.y, lightColor.z);
 }
 
-void Shader::SetMat4(const std::string& name, glm::mat4 mat4) const {
-    glUniformMatrix4fv(glGetUniformLocation(ID, name.c_str()), 1, GL_FALSE, glm::value_ptr(mat4));
+void Shader::SetViewPos(const glm::vec3& viewPos) const
+{
+	glUniform3f(glGetUniformLocation(ID, "viewPos"), viewPos.x, viewPos.y, viewPos.z);
 }
 
-void Shader::SetInt(const std::string& name, int value) const {
-    glUniform1i(glGetUniformLocation(ID, name.c_str()), value);
+void Shader::SetView(const glm::mat4& view) const
+{
+	glUniformMatrix4fv(glGetUniformLocation(ID, "view"), 1, GL_FALSE, glm::value_ptr(view));
+}
+
+void Shader::SetProjection(const glm::mat4& projection) const
+{
+	glUniformMatrix4fv(glGetUniformLocation(ID, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
+}
+
+void Shader::SetModel(const glm::mat4& model) const
+{
+	glUniformMatrix4fv(glGetUniformLocation(ID, "model"), 1, GL_FALSE, glm::value_ptr(model));
+}
+
+void Shader::SetInt(const std::string& name, int value) const
+{
+	glUniform1i(glGetUniformLocation(ID, name.c_str()), value);
+}
+
+void Shader::SetFloat(const std::string& name, float value) const
+{
+	glUniform1f(glGetUniformLocation(ID, name.c_str()), value);
+}
+
+void Shader::SetBool(const std::string& name, bool value) const
+{
+	glUniform1i(glGetUniformLocation(ID, name.c_str()), value);
 }

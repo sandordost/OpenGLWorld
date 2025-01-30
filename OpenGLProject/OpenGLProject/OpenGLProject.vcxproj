@@ -129,7 +129,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="shaders\fragmentShader.glsl" />
+    <None Include="shaders\matteShader.glsl" />
+    <None Include="shaders\PBRShader.glsl" />
     <None Include="shaders\vertexShader.glsl" />
   </ItemGroup>
   <ItemGroup>
@@ -138,7 +139,8 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="material.cpp" />
     <ClCompile Include="mesh.cpp" />
-    <ClCompile Include="model.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="sceneObject.cpp" />
     <ClCompile Include="objloader.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="textureLoader.cpp" />
@@ -148,11 +150,16 @@
     <ClInclude Include="airplane.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="cubeMesh.h" />
-    <ClInclude Include="defaultMaterial.h" />
-    <ClInclude Include="houseModel.h" />
+    <ClInclude Include="matteMaterial.h" />
+    <ClInclude Include="pbrMaterial.h" />
+    <ClInclude Include="houseObject.h" />
+    <ClInclude Include="lantern.h" />
     <ClInclude Include="material.h" />
+    <ClInclude Include="matteShader.h" />
     <ClInclude Include="mesh.h" />
-    <ClInclude Include="model.h" />
+    <ClInclude Include="PBRShader.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="sceneObject.h" />
     <ClInclude Include="objLoader.h" />
     <ClInclude Include="pyramidMesh.h" />
     <ClInclude Include="resource.h" />

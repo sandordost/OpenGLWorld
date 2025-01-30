@@ -27,10 +27,10 @@ GLuint TextureLoader::LoadTexture(const char* path)
         GLenum format = (nrChannels == 4) ? GL_RGBA : GL_RGB; // Bepaal het formaat van de afbeelding
         glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
         glGenerateMipmap(GL_TEXTURE_2D); // Genereer mipmaps
-        std::cout << "✅ Texture geladen: " << path << " (" << width << "x" << height << ", " << nrChannels << " kanalen)" << std::endl;
+        std::cout << "Texture geladen: " << path << " (" << width << "x" << height << ", " << nrChannels << " kanalen)" << std::endl;
     }
     else {
-        std::cerr << "❌ Fout: Kan texture niet laden: " << path << std::endl;
+        std::cerr << "Fout: Kan texture niet laden: " << path << std::endl;
     }
 
     stbi_image_free(data); // Vrij geheugen van de geladen afbeelding

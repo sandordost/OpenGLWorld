@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\mesh.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\PBRShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\shaders\\PBRShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\shaders\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\matteShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\shaders\\matteShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\pbrMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\pbrMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\sandMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\matteMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\matteMaterial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "scene.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\scene.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.h",
+              "RelativeToolTip": "OpenGLProject\\scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-30T17:05:29.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "scene.cpp",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.cpp",
+              "RelativeDocumentMoniker": "OpenGLProject\\scene.cpp",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.cpp",
+              "RelativeToolTip": "OpenGLProject\\scene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T17:05:26.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\main.cpp",
               "RelativeDocumentMoniker": "OpenGLProject\\main.cpp",
               "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\main.cpp",
               "RelativeToolTip": "OpenGLProject\\main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-29T16:52:22.059Z",
+              "WhenOpened": "2025-01-30T16:28:47.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "matteMaterial.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\matteMaterial.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\matteMaterial.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\matteMaterial.h",
+              "RelativeToolTip": "OpenGLProject\\matteMaterial.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-30T16:15:37.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "pbrMaterial.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\pbrMaterial.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\pbrMaterial.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\pbrMaterial.h",
+              "RelativeToolTip": "OpenGLProject\\pbrMaterial.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-30T16:11:30.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sandMaterial.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandMaterial.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\sandMaterial.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sandMaterial.h",
+              "RelativeToolTip": "OpenGLProject\\sandMaterial.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-30T16:10:55.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mesh.cpp",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mesh.cpp",
+              "RelativeDocumentMoniker": "OpenGLProject\\mesh.cpp",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mesh.cpp",
+              "RelativeToolTip": "OpenGLProject\\mesh.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T16:04:13.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mesh.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mesh.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\mesh.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mesh.h",
+              "RelativeToolTip": "OpenGLProject\\mesh.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vx4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-30T16:03:37.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "matteShader.glsl",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\matteShader.glsl",
+              "RelativeDocumentMoniker": "OpenGLProject\\shaders\\matteShader.glsl",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\matteShader.glsl",
+              "RelativeToolTip": "OpenGLProject\\shaders\\matteShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T15:57:46.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "vertexShader.glsl",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\vertexShader.glsl",
+              "RelativeDocumentMoniker": "OpenGLProject\\shaders\\vertexShader.glsl",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\vertexShader.glsl",
+              "RelativeToolTip": "OpenGLProject\\shaders\\vertexShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T15:42:53.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PBRShader.glsl",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\PBRShader.glsl",
+              "RelativeDocumentMoniker": "OpenGLProject\\shaders\\PBRShader.glsl",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\shaders\\PBRShader.glsl",
+              "RelativeToolTip": "OpenGLProject\\shaders\\PBRShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-30T15:41:18.817Z",
               "EditorCaption": ""
             }
           ]

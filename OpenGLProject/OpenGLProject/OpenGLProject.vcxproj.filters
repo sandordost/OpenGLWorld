@@ -22,11 +22,20 @@
     <Filter Include="Source Files\Textures">
       <UniqueIdentifier>{fb552c88-e166-4811-85dc-21a0fc598124}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Models">
-      <UniqueIdentifier>{4f184cad-6d36-412e-8fcb-5aef1072ebeb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Materials">
       <UniqueIdentifier>{c73feeec-8521-416a-8d77-7d515b92c56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{4f184cad-6d36-412e-8fcb-5aef1072ebeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Fragment Shaders">
+      <UniqueIdentifier>{125185d5-d3e5-4207-ac9c-32836377c0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ShaderPresets">
+      <UniqueIdentifier>{bf6bd492-0a43-4e69-8703-d39448b84f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials\PBR Materials">
+      <UniqueIdentifier>{42db0296-4118-42d5-8c7c-a0e8240c93d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -34,8 +43,11 @@
     <None Include="shaders\vertexShader.glsl">
       <Filter>Shaders</Filter>
     </None>
-    <None Include="shaders\fragmentShader.glsl">
-      <Filter>Shaders</Filter>
+    <None Include="shaders\PBRShader.glsl">
+      <Filter>Shaders\Fragment Shaders</Filter>
+    </None>
+    <None Include="shaders\matteShader.glsl">
+      <Filter>Shaders\Fragment Shaders</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -57,7 +69,7 @@
     <ClCompile Include="mesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="model.cpp">
+    <ClCompile Include="sceneObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="textureLoader.cpp">
@@ -67,6 +79,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="objloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -83,7 +98,7 @@
     <ClInclude Include="mesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="model.h">
+    <ClInclude Include="sceneObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="textureLoader.h">
@@ -92,8 +107,8 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="houseModel.h">
-      <Filter>Source Files\Models</Filter>
+    <ClInclude Include="houseObject.h">
+      <Filter>Source Files\Object</Filter>
     </ClInclude>
     <ClInclude Include="pyramidMesh.h">
       <Filter>Source Files\Meshes</Filter>
@@ -104,7 +119,7 @@
     <ClInclude Include="cubeMesh.h">
       <Filter>Source Files\Meshes</Filter>
     </ClInclude>
-    <ClInclude Include="defaultMaterial.h">
+    <ClInclude Include="pbrMaterial.h">
       <Filter>Source Files\Materials</Filter>
     </ClInclude>
     <ClInclude Include="squareMesh.h">
@@ -119,14 +134,29 @@
     <ClInclude Include="sandTexture.h">
       <Filter>Source Files\Textures</Filter>
     </ClInclude>
-    <ClInclude Include="sandMaterial.h">
-      <Filter>Source Files\Materials</Filter>
-    </ClInclude>
     <ClInclude Include="airplane.h">
-      <Filter>Source Files\Models</Filter>
+      <Filter>Source Files\Object</Filter>
     </ClInclude>
     <ClInclude Include="objLoader.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lantern.h">
+      <Filter>Source Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRShader.h">
+      <Filter>Source Files\ShaderPresets</Filter>
+    </ClInclude>
+    <ClInclude Include="matteShader.h">
+      <Filter>Source Files\ShaderPresets</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sandMaterial.h">
+      <Filter>Source Files\Materials\PBR Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="matteMaterial.h">
+      <Filter>Source Files\Materials</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

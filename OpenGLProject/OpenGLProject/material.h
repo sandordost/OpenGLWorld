@@ -9,22 +9,15 @@
 // Only supports PBR materials
 class Material {
 public:
-	Material(const Texture& texture, float shininess, float smoothness);
-    Material(const std::string& diffusePath, const std::string& roughnessPath, float shininess, float smoothness);
+	Material(const Shader& shader);
 
-    void Bind(const Shader& shader) const;
-    void Unbind() const;
+    virtual void Bind() const = 0;
 
-    GLuint GetDiffuseMap() const { return diffuseMap; }
-    GLuint GetRoughnessMap() const { return roughnessMap; }
-    float GetShininess() const { return shininess; }
 	static GLuint CreateSolidColorTexture(unsigned char r, unsigned char g, unsigned char b, unsigned char a);
+	Shader GetShader() const { return shader; }
 
-private:
-    GLuint diffuseMap;
-    GLuint roughnessMap;
-    float shininess;
-    float smoothness;
+protected:
+	Shader shader;
+	GLuint LoadTexture(const std::string& path);
 
-    GLuint LoadTexture(const std::string& path);
 };

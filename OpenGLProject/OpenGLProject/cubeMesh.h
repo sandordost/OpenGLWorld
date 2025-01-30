@@ -1,10 +1,9 @@
 #pragma once
 #include "mesh.h"
-#include "defaultMaterial.h"
 
 class CubeMesh : public Mesh {
 public:
-	CubeMesh(const Material& _material)
+	CubeMesh(const std::shared_ptr<Material>& _material)
 		: Mesh(_material) {
 		std::vector<float> vertices = {
 			// Voorvlak (+Z)
@@ -138,6 +137,6 @@ public:
 			1.0f, 1.0f,  0.0f, 1.0f,  0.0f, 0.0f,
 		};
 
-		SetupMesh(vertices, normals, texCoords, _material);
+		SetupMesh(vertices, normals, texCoords);
 	}
 };

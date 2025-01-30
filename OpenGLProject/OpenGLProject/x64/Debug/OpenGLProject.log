@@ -1,9 +1,6 @@
-﻿  main.cpp
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(71,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(123,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(124,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(128,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(129,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(130,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(131,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+﻿  mesh.cpp
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\mesh.cpp(63,35): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  scene.cpp
+  sceneObject.cpp
+  Generating Code...
   OpenGLProject.vcxproj -> C:\GitHub\OpenGLWorld\OpenGLProject\x64\Debug\OpenGLProject.exe

@@ -1,10 +1,9 @@
 #pragma once
 #include "Mesh.h"
-#include "defaultMaterial.h"
 
 class SquareMesh : public Mesh {
 public:
-    SquareMesh(const Material& _material) 
+    SquareMesh(const std::shared_ptr<Material>& _material) 
     : Mesh(_material){
         std::vector<float> vertices = {
             -0.5f, -0.5f, 0.0f,
@@ -35,6 +34,6 @@ public:
             1.0f, 1.0f
         };
 
-        SetupMesh(vertices, normals, texCoords, _material);
+        SetupMesh(vertices, normals, texCoords);
     }
 };

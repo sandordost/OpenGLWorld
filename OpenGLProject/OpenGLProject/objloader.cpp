@@ -6,7 +6,7 @@ bool OBJLoader::loadOBJ(
     std::vector<glm::vec2>& out_uvs,
     std::vector<glm::vec3>& out_normals
 ) {
-    std::cout << "📂 Laden van OBJ-bestand: " << path << std::endl;
+    std::cout << "Laden van OBJ-bestand: " << path << std::endl;
 
     std::vector<unsigned int> vertexIndices, uvIndices, normalIndices;
     std::vector<glm::vec3> temp_vertices;
@@ -15,7 +15,7 @@ bool OBJLoader::loadOBJ(
 
     std::ifstream file(path);
     if (!file.is_open()) {
-        std::cerr << "❌ Fout: Kan OBJ-bestand niet openen: " << path << std::endl;
+        std::cerr << "Fout: Kan OBJ-bestand niet openen: " << path << std::endl;
         return false;
     }
 
@@ -69,7 +69,7 @@ bool OBJLoader::loadOBJ(
 
     file.close();
 
-    std::cout << "✅ OBJ-bestand geladen: " << path << std::endl;
+    std::cout << "OBJ-bestand geladen: " << path << std::endl;
     std::cout << "   Vertices: " << out_vertices.size() << ", UVs: " << out_uvs.size() << ", Normals: " << out_normals.size() << std::endl;
 
     return true;

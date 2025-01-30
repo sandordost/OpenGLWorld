@@ -7,5 +7,6 @@ public:
 	SandTexture() {
 		diffusePath = "textures/Sand_008_Texture/Sand_008_basecolor.png";
 		roughnessPath = "textures/Sand_008_Texture/Sand_008_roughness.png";
+		normalPath = "textures/Sand_008_Texture/Sand_008_normal.png";
 	}
 };
