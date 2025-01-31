@@ -6,6 +6,7 @@ Camera::Camera(glm::vec3 position, glm::vec3 up, float yaw, float pitch)
     WorldUp = up;
     Yaw = yaw;
     Pitch = pitch;
+	fixedY = position.y;
     UpdateCameraVectors();
 }
 
@@ -15,6 +16,9 @@ glm::mat4 Camera::GetViewMatrix() const {
 
 void Camera::ProcessKeyboard(Camera_Movement direction, float deltaTime) {
     float velocity = MovementSpeed * deltaTime;
+
+	float startY = Position.y;
+
     if (direction == FORWARD)
         Position += Front * velocity;
     if (direction == BACKWARD)
@@ -23,6 +27,12 @@ void Camera::ProcessKeyboard(Camera_Movement direction, float deltaTime) {
         Position -= Right * velocity;
     if (direction == RIGHT)
         Position += Right * velocity;
+	if (direction == UP)
+		Position += Up * velocity;
+	if (direction == DOWN)
+		Position -= Up * velocity;
+
+    if(!droneMode) Position.y = startY;
 }
 
 void Camera::ProcessMouseMovement(float xoffset, float yoffset, bool constrainPitch) {
@@ -40,6 +50,47 @@ void Camera::ProcessMouseMovement(float xoffset, float yoffset, bool constrainPi
     }
 
     UpdateCameraVectors();
+}
+
+void Camera::Update(float deltaTime)
+{
+    if (isJumping) {
+        verticalVelocity += gravity * deltaTime;
+        Position.y += verticalVelocity * deltaTime;
+
+        if (verticalVelocity <= 0.0f) {
+            isJumping = false;
+        }
+    }
+    else if (!isGrounded) {
+        verticalVelocity += gravity * deltaTime;
+        Position.y += verticalVelocity * deltaTime;
+
+        if (Position.y <= fixedY) {
+            Position.y = fixedY;
+            verticalVelocity = 0.0f;
+            isGrounded = true;
+        }
+    }
+}
+
+void Camera::toggleDroneMode()
+{
+	droneMode = !droneMode;
+
+	if (!droneMode) {
+		Position.y = fixedY;
+		isGrounded = true;
+		isJumping = false;
+	}
+}
+
+void Camera::StartJump() {
+    if (isGrounded && !droneMode) {
+        isJumping = true;
+        isGrounded = false;
+        verticalVelocity = initialJumpVelocity;  // Start sprong met initiële kracht
+    }
 }
 
 void Camera::UpdateCameraVectors() {

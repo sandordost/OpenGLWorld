@@ -2,7 +2,7 @@
 #include <iostream>
 #include "scene.h"
 
-Mesh::Mesh(const std::shared_ptr<Material>& _material) : VAO(0), VBO(0), NBO(0), TBO(0), verticesCount(3), material(_material) {}
+Mesh::Mesh(const std::shared_ptr<Material>& _material) : VAO(0), VBO(0), NBO(0), TBO(0), TanBO(0), verticesCount(3), material(_material) {}
 
 Mesh::~Mesh() {
     glDeleteVertexArrays(1, &VAO);
@@ -15,6 +15,7 @@ void Mesh::SetupMesh(const std::vector<float>& vertices, const std::vector<float
     glGenBuffers(1, &VBO);
     glGenBuffers(1, &NBO);
     glGenBuffers(1, &TBO);
+	glGenBuffers(1, &TanBO);
 
     glBindVertexArray(VAO);
 
@@ -36,9 +37,19 @@ void Mesh::SetupMesh(const std::vector<float>& vertices, const std::vector<float
     glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(2);
 
+	// Tangent Buffer
+    std::vector<float> tangents;
+    CalculateTangents(vertices, texCoords, tangents);
+    glBindBuffer(GL_ARRAY_BUFFER, TanBO);
+    glBufferData(GL_ARRAY_BUFFER, tangents.size() * sizeof(float), tangents.data(), GL_STATIC_DRAW);
+    glVertexAttribPointer(3, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(3);
+
     std::cout << "Mesh setup met " << vertices.size() / 3
         << " vertices, " << normals.size() / 3
-        << " normals, " << texCoords.size() / 2;
+        << " normals, " << texCoords.size() / 2
+        << " texCoords, " << tangents.size() / 3
+        << " tangents.\n";
 
     verticesCount = vertices.size() / 3;
 }
@@ -74,4 +85,42 @@ void Mesh::Scale(const glm::vec3& scale) {
 
 void Mesh::Rotate(float angle, const glm::vec3& axis) {
     transform = glm::rotate(transform, glm::radians(angle), axis);
+}
+
+void Mesh::CalculateTangents(const std::vector<float>& vertices, const std::vector<float>& texCoords, std::vector<float>& tangents) {
+    for (size_t i = 0; i < vertices.size(); i += 9) {
+        glm::vec3 pos1(vertices[i], vertices[i + 1], vertices[i + 2]);
+        glm::vec3 pos2(vertices[i + 3], vertices[i + 4], vertices[i + 5]);
+        glm::vec3 pos3(vertices[i + 6], vertices[i + 7], vertices[i + 8]);
+
+        glm::vec2 uv1(texCoords[(i / 3) * 2], texCoords[(i / 3) * 2 + 1]);
+        glm::vec2 uv2(texCoords[(i / 3 + 1) * 2], texCoords[(i / 3 + 1) * 2 + 1]);
+        glm::vec2 uv3(texCoords[(i / 3 + 2) * 2], texCoords[(i / 3 + 2) * 2 + 1]);
+
+        glm::vec3 deltaPos1 = pos2 - pos1;
+        glm::vec3 deltaPos2 = pos3 - pos1;
+        glm::vec2 deltaUV1 = uv2 - uv1;
+        glm::vec2 deltaUV2 = uv3 - uv1;
+
+        float f = deltaUV1.x * deltaUV2.y - deltaUV2.x * deltaUV1.y;
+        if (fabs(f) < 1e-6) {
+            f = 1.0f; // Vermijd deling door 0
+        }
+        else {
+            f = 1.0f / f;
+        }
+
+        glm::vec3 tangent;
+        tangent.x = f * (deltaUV2.y * deltaPos1.x - deltaUV1.y * deltaPos2.x);
+        tangent.y = f * (deltaUV2.y * deltaPos1.y - deltaUV1.y * deltaPos2.y);
+        tangent.z = f * (deltaUV2.y * deltaPos1.z - deltaUV1.y * deltaPos2.z);
+        tangent = glm::normalize(tangent);
+
+        // Voeg tangent toe voor alle drie vertices
+        for (int j = 0; j < 3; j++) {
+            tangents.push_back(tangent.x);
+            tangents.push_back(tangent.y);
+            tangents.push_back(tangent.z);
+        }
+    }
 }

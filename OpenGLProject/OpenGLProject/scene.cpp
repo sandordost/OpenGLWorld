@@ -8,14 +8,13 @@ Scene::~Scene()
 {
 }
 
-void Scene::Draw()
+void Scene::Draw(float deltaTime)
 {
+	std::shared_ptr<Scene> scenePtr = shared_from_this();
+
 	for (std::shared_ptr<SceneObject>& object : objects)
 	{
-		object->Draw(std::make_shared<Scene>(*this));
+		object->Animate(deltaTime);
+		object->Draw(scenePtr);
 	}
-}
-
-void Scene::Update()
-{
 }

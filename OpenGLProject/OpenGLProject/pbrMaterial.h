@@ -18,6 +18,8 @@ public:
 		shader.SetInt("material.normal", 2);
         shader.SetFloat("material.shininess", shininess);
         shader.SetFloat("material.smoothness", smoothness);
+		shader.SetFloat("material.normalStrength", normalStrength);
+        shader.SetFloat("lightStrength", 1.5f);
         shader.SetBool("useNormalMap", true);
 
         glActiveTexture(GL_TEXTURE0);
@@ -36,4 +38,5 @@ public:
 	GLuint normalMap = 0;
     float shininess = 0;
     float smoothness = 0;
+	float normalStrength = 1.0f;
 };

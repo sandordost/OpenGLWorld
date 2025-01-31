@@ -16,7 +16,6 @@ public:
     virtual ~Mesh();
 
     void SetupMesh(const std::vector<float>& vertices, const std::vector<float>& normals, const std::vector<float>& texCoords);
-	void SetupMesh(const std::vector<float>& vertices, const std::vector<float>& normals, const std::vector<float>& texCoords, const std::vector<float>& tangents);
 
     void Draw(const std::shared_ptr<Scene>& scene, glm::mat4 modelTransform) const;
 
@@ -27,9 +26,9 @@ public:
     glm::mat4 GetTransform() const { return transform; }
 
 protected:
-    GLuint VAO, VBO, NBO, TBO;
+    GLuint VAO, VBO, NBO, TBO, TanBO;
     size_t verticesCount;
     std::shared_ptr<Material> material;
-
+	void CalculateTangents(const std::vector<float>& vertices, const std::vector<float>& texCoords, std::vector<float>& tangents);
     glm::mat4 transform = glm::mat4(1.0f);
 };

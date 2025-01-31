@@ -15,5 +15,7 @@ public:
 		material->smoothness = 0.6f;
 
 		CreateFromOBJ("C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\meshes\\lantern.obj", material);
+
+		Scale(glm::vec3(0.003f, 0.003f, 0.003f));
 	}
 };

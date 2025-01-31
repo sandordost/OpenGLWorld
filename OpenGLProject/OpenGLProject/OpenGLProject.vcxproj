@@ -134,6 +134,7 @@
     <None Include="shaders\vertexShader.glsl" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="animation.cpp" />
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="External\Glad\src\glad.c" />
     <ClCompile Include="main.cpp" />
@@ -148,8 +149,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="airplane.h" />
+    <ClInclude Include="animation.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="cubeMesh.h" />
+    <ClInclude Include="mainScene.h" />
+    <ClInclude Include="materials.h" />
     <ClInclude Include="matteMaterial.h" />
     <ClInclude Include="pbrMaterial.h" />
     <ClInclude Include="houseObject.h" />
@@ -163,21 +167,16 @@
     <ClInclude Include="objLoader.h" />
     <ClInclude Include="pyramidMesh.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="sandMaterial.h" />
-    <ClInclude Include="sandTexture.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="squareMesh.h" />
     <ClInclude Include="texture.h" />
     <ClInclude Include="textureLoader.h" />
+    <ClInclude Include="textures.h" />
     <ClInclude Include="triangleMesh.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OpenGLProject.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="textures\Sand_008_Texture\Sand_008_basecolor.png" />
-    <Image Include="textures\Sand_008_Texture\Sand_008_roughness.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

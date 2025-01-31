@@ -1,26 +1,28 @@
 #include "sceneObject.h"
 #include "scene.h"
+#include <glm/gtx/quaternion.hpp>
 
 void SceneObject::AddMesh(const std::shared_ptr<Mesh>& mesh) {
 	meshes.push_back(mesh);
 }
 void SceneObject::Translate(const glm::vec3& translation) {
-    transform = glm::translate(transform, translation);
+	transform = glm::translate(transform, translation);
 }
 
 void SceneObject::Rotate(float angle, const glm::vec3& axis) {
-    transform = glm::rotate(transform, glm::radians(angle), axis);
+	transform = glm::rotate(transform, glm::radians(angle), axis);
 }
 
 void SceneObject::Scale(const glm::vec3& scale) {
-    transform = glm::scale(transform, scale);
+	transform = glm::scale(transform, scale);
 }
 
-void SceneObject::Draw(const std::shared_ptr<Scene>& scene){
+void SceneObject::Draw(const std::shared_ptr<Scene>& scene) {
 
-    for (const auto& mesh : meshes) {
-        mesh->Draw(scene, transform);
-    }
+	for (const auto& mesh : meshes) {
+
+		mesh->Draw(scene, transform);
+	}
 }
 
 void SceneObject::CreateFromOBJ(const std::string& path, const std::shared_ptr<Material>& mat)
@@ -57,4 +59,12 @@ void SceneObject::CreateFromOBJ(const std::string& path, const std::shared_ptr<M
 	mesh->SetupMesh(verticesFloat, normalsFloat, uvsFloat);
 
 	AddMesh(mesh);
+}
+
+void SceneObject::SetTransform(const glm::vec3& position, const glm::quat& rotation, const glm::vec3& scale) {
+	transform = glm::translate(glm::mat4(1.0f), position);
+
+	transform *= glm::toMat4(rotation);
+
+	transform = glm::scale(transform, scale);
 }

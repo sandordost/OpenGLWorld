@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Materials\PBR Materials">
       <UniqueIdentifier>{42db0296-4118-42d5-8c7c-a0e8240c93d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{a09a41e1-0fb3-4f76-b4f7-b6106d314226}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -82,6 +85,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -131,9 +137,6 @@
     <ClInclude Include="texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sandTexture.h">
-      <Filter>Source Files\Textures</Filter>
-    </ClInclude>
     <ClInclude Include="airplane.h">
       <Filter>Source Files\Object</Filter>
     </ClInclude>
@@ -152,24 +155,25 @@
     <ClInclude Include="scene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sandMaterial.h">
-      <Filter>Source Files\Materials\PBR Materials</Filter>
-    </ClInclude>
     <ClInclude Include="matteMaterial.h">
       <Filter>Source Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="textures.h">
+      <Filter>Source Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="materials.h">
+      <Filter>Source Files\Materials\PBR Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>Source Files\Scenes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OpenGLProject.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="textures\Sand_008_Texture\Sand_008_basecolor.png">
-      <Filter>Source Files\Textures</Filter>
-    </Image>
-    <Image Include="textures\Sand_008_Texture\Sand_008_roughness.png">
-      <Filter>Source Files\Textures</Filter>
-    </Image>
   </ItemGroup>
 </Project>

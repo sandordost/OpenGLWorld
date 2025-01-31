@@ -6,7 +6,9 @@ enum Camera_Movement {
     FORWARD,
     BACKWARD,
     LEFT,
-    RIGHT
+    RIGHT,
+	UP,
+	DOWN
 };
 
 class Camera {
@@ -28,7 +30,20 @@ public:
     glm::mat4 GetViewMatrix() const;
     void ProcessKeyboard(Camera_Movement direction, float deltaTime);
     void ProcessMouseMovement(float xoffset, float yoffset, bool constrainPitch = true);
+    void Update(float deltaTime);
+	void toggleDroneMode();
+	void StartJump();
+
+	bool isGrounded = true;
+	bool isJumping = false;
+    bool droneMode = false;
 
 private:
     void UpdateCameraVectors();
+    float fixedY;
+	float jumpHeight = 2.0f;
+	float jumpSpeed = 4.0f;
+    float verticalVelocity = 0.0f;
+    const float gravity = -9.8f;
+    const float initialJumpVelocity = 5.0f;
 };
