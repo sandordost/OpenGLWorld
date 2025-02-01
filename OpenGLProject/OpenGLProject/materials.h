@@ -2,6 +2,7 @@
 #include <string>
 #include "textures.h"
 #include "pbrMaterial.h"
+#include "matteMaterial.h"
 
 class SandMaterial : public PBRMaterial {
 public:
@@ -57,5 +58,11 @@ public:
 	RoofMaterial() : PBRMaterial(RoofTexture()) {
 		shininess = 12.0f;
 		smoothness = 0.5f;
+	}
+};
+
+class CarMaterial : public MatteMaterial {
+public:
+	CarMaterial() : MatteMaterial(80, 80, 80, 255) {
 	}
 };

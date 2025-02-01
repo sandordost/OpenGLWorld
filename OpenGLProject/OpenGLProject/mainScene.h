@@ -6,6 +6,8 @@
 #include <glm/gtx/rotate_vector.hpp>
 #include "houseObject.h"
 #include "lantern.h"
+#include "carObject.h"
+#include "carAnimation.h"
 
 class MainScene : public Scene {
 public:
@@ -33,12 +35,20 @@ public:
 		auto latern = std::make_shared<LanternObject>();
 		latern->Translate(glm::vec3(1.2f, 0.0f, 500.0f));
 
+		// Car
+		auto car = std::make_shared<CarObject>();
+		car->Translate(glm::vec3(-12.0f, 0.0f, -12.0f));
+		car->Rotate(-90.0f, glm::vec3(0.0f, 1.0f, 0.0f));
+		//car->Scale(glm::vec3(0.5f, 0.5f, 0.5f));
+		car->SetAnimation(std::make_shared<CarAnimation>(car));
+
 
 		// Add objects to scene
 		AddObject(grass);
 		AddObject(road);
 		AddObject(house1);
 		AddObject(latern);
+		AddObject(car);
 	}
 
 	void Update() override {

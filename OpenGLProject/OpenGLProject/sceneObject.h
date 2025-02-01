@@ -7,6 +7,7 @@
 #include "objLoader.h"
 #include "mesh.h"
 #include "animation.h"
+#include <glm/gtc/quaternion.hpp>
 
 class SceneObject {
 public:
@@ -22,6 +23,10 @@ public:
 	void SetTransform(const glm::vec3& position, const glm::quat& rotation, const glm::vec3& scale);
 	void SetAnimation(const std::shared_ptr<Animation>& animation) { currentAnimation = animation; }
 	void Animate(float deltaTime) { if (currentAnimation) currentAnimation->Update(deltaTime); }
+	glm::vec3 GetPosition() { return glm::vec3(transform[3]); }
+	glm::quat GetRotation() const { return glm::quat_cast(transform); }
+	glm::vec3 GetRotationInDegrees() const;
+	glm::vec3 GetScale() const { return glm::vec3(glm::length(transform[0]), glm::length(transform[1]), glm::length(transform[2])); }
 
 private:
 	std::shared_ptr<Animation> currentAnimation;

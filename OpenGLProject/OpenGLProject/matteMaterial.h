@@ -6,6 +6,10 @@ class MatteMaterial : public Material {
 public:
 	MatteMaterial() : MatteMaterial(128, 128, 128, 255) {}
 
+	MatteMaterial(const Texture& texture) : Material(MatteShader()) {
+		diffuseMap = LoadTexture(texture.diffusePath);
+	}
+
 	MatteMaterial(char r, char g, char b, char a) : Material(MatteShader()) {
 		diffuseMap = CreateSolidColorTexture(r, g, b, a);
 	}

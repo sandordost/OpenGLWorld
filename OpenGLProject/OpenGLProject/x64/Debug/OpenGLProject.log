@@ -1,4 +1,19 @@
 ﻿  main.cpp
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\matteMaterial.h(7,49): warning C4309: 'argument': truncation of constant value
+  (compiling source file 'main.cpp')
+  
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\matteMaterial.h(7,44): warning C4309: 'argument': truncation of constant value
+  (compiling source file 'main.cpp')
+  
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\matteMaterial.h(7,39): warning C4309: 'argument': truncation of constant value
+  (compiling source file 'main.cpp')
+  
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\matteMaterial.h(7,34): warning C4309: 'argument': truncation of constant value
+  (compiling source file 'main.cpp')
+  
+C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\materials.h(66,44): warning C4309: 'argument': truncation of constant value
+  (compiling source file 'main.cpp')
+  
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(31,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(90,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\GitHub\OpenGLWorld\OpenGLProject\OpenGLProject\main.cpp(91,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data

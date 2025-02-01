@@ -16,10 +16,11 @@ public:
 	void AddKeyframe(float time, const glm::vec3& position, const glm::vec3& rotation, const glm::vec3& scale);
 	void Update(float dt);
 
+protected:
+	std::vector<AnimationKeyframe> keyframes;
+
 private:
 	void InterpolateTransform(float t, const AnimationKeyframe& current, const AnimationKeyframe& next);
-
-	std::vector<AnimationKeyframe> keyframes;
 	std::shared_ptr<SceneObject> sceneObject;
 	float time = 0.0f;
 	bool loop = true;

@@ -151,6 +151,8 @@
     <ClInclude Include="airplane.h" />
     <ClInclude Include="animation.h" />
     <ClInclude Include="camera.h" />
+    <ClInclude Include="carAnimation.h" />
+    <ClInclude Include="carObject.h" />
     <ClInclude Include="cubeMesh.h" />
     <ClInclude Include="mainScene.h" />
     <ClInclude Include="materials.h" />
