@@ -8,6 +8,9 @@
 #include "lantern.h"
 #include "carObject.h"
 #include "carAnimation.h"
+#include "treeObject.h"
+#include "airplane.h"
+#include "planeAnimation.h"
 
 class MainScene : public Scene {
 public:
@@ -42,6 +45,11 @@ public:
 		//car->Scale(glm::vec3(0.5f, 0.5f, 0.5f));
 		car->SetAnimation(std::make_shared<CarAnimation>(car));
 
+		// Airplane
+		auto airplane = std::make_shared<AirplaneObject>();
+		airplane->Scale(glm::vec3(0.5f, 0.5f, 0.5f));
+		airplane->Translate(glm::vec3(0.0f, 10.0f, 0.0f));
+		airplane->SetAnimation(std::make_shared<PlaneAnimation>(airplane));
 
 		// Add objects to scene
 		AddObject(grass);
@@ -49,6 +57,7 @@ public:
 		AddObject(house1);
 		AddObject(latern);
 		AddObject(car);
+		AddObject(airplane);
 	}
 
 	void Update() override {
@@ -82,16 +91,13 @@ private:
 
 		for (int x = 0; x < segmentsX; x++) {
 			for (int y = 0; y < segmentsY; y++) {
-				// Maak een nieuw mesh aan voor elk segment
 				auto grassMesh = std::make_shared<SquareMesh>(grassMaterial);
 				grassMesh->Rotate(90.0f, glm::vec3(-1.0f, 0.0f, 0.0f));
 				grassMesh->Scale(glm::vec3(segmentSize, segmentSize, 1.0f));
 
-				// Bereken de wereldpositie van het segment
 				glm::vec3 position = basePosition + glm::vec3(x * segmentSize / 2, y * segmentSize / 2, 0.0f);
 				grassMesh->Translate(position);
 
-				// Voeg het mesh toe aan het `SceneObject`
 				grassObject->AddMesh(grassMesh);
 			}
 		}

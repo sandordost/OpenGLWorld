@@ -164,6 +164,7 @@
     <ClInclude Include="matteShader.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="PBRShader.h" />
+    <ClInclude Include="planeAnimation.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="sceneObject.h" />
     <ClInclude Include="objLoader.h" />

@@ -70,7 +70,6 @@ static void ProcessInput(GLFWwindow* window) {
 			camera->ProcessKeyboard(DOWN, deltaTime);
 	}
 
-	// Jump logic
 	if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS && camera->isGrounded) {
 		camera->StartJump();
 	}

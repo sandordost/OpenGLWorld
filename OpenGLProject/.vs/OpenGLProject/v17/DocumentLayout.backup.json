@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\textures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\textures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\mainScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\planeAnimation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\planeAnimation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carAnimation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\carAnimation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\sceneObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\carObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\materials.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\materials.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\lantern.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\lantern.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\airplane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF455258-ACDB-471E-83DE-B00D690FE239}|OpenGLProject\\OpenGLProject.vcxproj|solutionrelative:OpenGLProject\\airplane.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,135 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "sceneObject.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sceneObject.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\sceneObject.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\sceneObject.h",
-              "RelativeToolTip": "OpenGLProject\\sceneObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAACCAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "textures.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\textures.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\textures.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\textures.h",
+              "RelativeToolTip": "OpenGLProject\\textures.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-01T17:17:40.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "carAnimation.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carAnimation.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\carAnimation.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carAnimation.h",
-              "RelativeToolTip": "OpenGLProject\\carAnimation.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-01T17:15:23.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "materials.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\materials.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\materials.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\materials.h",
-              "RelativeToolTip": "OpenGLProject\\materials.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-01T16:34:42.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "lantern.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\lantern.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\lantern.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\lantern.h",
-              "RelativeToolTip": "OpenGLProject\\lantern.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-01T16:32:21.748Z",
+              "WhenOpened": "2025-04-05T20:21:55.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "carObject.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carObject.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\carObject.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carObject.h",
-              "RelativeToolTip": "OpenGLProject\\carObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Title": "carAnimation.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carAnimation.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\carAnimation.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\carAnimation.h",
+              "RelativeToolTip": "OpenGLProject\\carAnimation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-01T16:30:03.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T20:14:43.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "planeAnimation.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\planeAnimation.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\planeAnimation.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\planeAnimation.h",
+              "RelativeToolTip": "OpenGLProject\\planeAnimation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-05T20:14:41.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "airplane.h",
+              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\airplane.h",
+              "RelativeDocumentMoniker": "OpenGLProject\\airplane.h",
+              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\airplane.h",
+              "RelativeToolTip": "OpenGLProject\\airplane.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-05T20:12:56.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "mainScene.h",
               "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mainScene.h",
               "RelativeDocumentMoniker": "OpenGLProject\\mainScene.h",
               "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\mainScene.h",
               "RelativeToolTip": "OpenGLProject\\mainScene.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-01T16:29:34.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "scene.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\scene.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.h",
-              "RelativeToolTip": "OpenGLProject\\scene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-31T21:07:03.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "scene.cpp",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.cpp",
-              "RelativeDocumentMoniker": "OpenGLProject\\scene.cpp",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\scene.cpp",
-              "RelativeToolTip": "OpenGLProject\\scene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-31T21:07:00.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "camera.h",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\camera.h",
-              "RelativeDocumentMoniker": "OpenGLProject\\camera.h",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\camera.h",
-              "RelativeToolTip": "OpenGLProject\\camera.h",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAawB0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-31T21:06:30.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "camera.cpp",
-              "DocumentMoniker": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\camera.cpp",
-              "RelativeDocumentMoniker": "OpenGLProject\\camera.cpp",
-              "ToolTip": "C:\\GitHub\\OpenGLWorld\\OpenGLProject\\OpenGLProject\\camera.cpp",
-              "RelativeToolTip": "OpenGLProject\\camera.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-31T21:06:27.338Z"
+              "WhenOpened": "2025-04-05T20:12:38.303Z"
             }
           ]
         }
